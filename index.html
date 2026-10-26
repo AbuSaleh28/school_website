@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17324f">
+  <meta name="description" content="Oakridge International Academy is an independent school where academic ambition and a strong sense of community go hand in hand.">
+  <title>Oakridge International Academy | Learn with purpose</title>
+  <script>tailwind = { config: { theme: { extend: { colors: { oak: { navy: "#17324f", blue: "#244a70", gold: "#c88a32", cream: "#f7f5ef", ink: "#263746", muted: "#65727d" } }, fontFamily: { sans: ["DM Sans", "Avenir Next", "Segoe UI", "sans-serif"], display: ["Playfair Display", "Georgia", "serif"] }, boxShadow: { soft: "0 18px 50px rgba(23, 50, 79, .09)" } } } } };</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="bg-white text-oak-ink antialiased">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="utility-bar bg-oak-navy text-white">
+    <div class="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-2.5 text-xs sm:flex-row sm:items-center sm:justify-between sm:px-8">
+      <div class="flex flex-wrap items-center gap-x-5 gap-y-1.5">
+        <a class="whitespace-nowrap hover:text-amber-200" href="tel:+15550142730">(555) 014-2730</a>
+        <a class="whitespace-nowrap hover:text-amber-200" href="mailto:admissions@oakridgeacademy.edu">admissions@oakridgeacademy.edu</a>
+      </div>
+      <div class="flex flex-wrap items-center gap-3 sm:justify-end">
+        <span class="text-amber-100">● School office open today, 8:00 am–4:00 pm</span>
+        <a class="whitespace-nowrap rounded-sm border border-white/30 px-2.5 py-1 font-medium hover:bg-white/10" href="contact.html#portals">Parent portal</a>
+        <a class="whitespace-nowrap rounded-sm border border-white/30 px-2.5 py-1 font-medium hover:bg-white/10" href="contact.html#portals">Student login</a>
+      </div>
+    </div>
+  </div>
+  <header class="site-header sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur">
+    <div class="relative mx-auto flex max-w-7xl items-center justify-between px-5 py-3.5 sm:px-8">
+      <a href="index.html" class="flex items-center gap-3" aria-label="Oakridge Academy home">
+        <span class="grid h-11 w-11 place-items-center rounded-t-2xl rounded-b-md border border-oak-gold/50 bg-oak-cream text-oak-navy"><svg aria-hidden="true" class="h-7 w-7" viewBox="0 0 40 40" fill="none"><path d="M20 3 34 8v11c0 9-5.8 14.8-14 18C11.8 33.8 6 28 6 19V8l14-5Z" stroke="currentColor" stroke-width="1.5"/><path d="M12 16h16M14 16v9m12-9v9M12 25h16M18 11l2-3 2 3m-2-3v5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span class="leading-tight"><span class="block font-display text-lg font-semibold tracking-tight text-oak-navy sm:text-xl">Oakridge</span><span class="block text-[9px] font-semibold uppercase tracking-[.24em] text-oak-muted">International Academy</span></span>
+      </a>
+      <button class="menu-toggle inline-flex h-10 w-10 items-center justify-center rounded-md border border-slate-200 text-oak-navy md:hidden" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation"><svg aria-hidden="true" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <nav id="primary-navigation" class="site-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html" aria-current="page">Home</a><a class="nav-link" href="about.html">About us</a><a class="nav-link" href="academics.html">Academics</a><a class="nav-link" href="admissions.html">Admissions</a><a class="nav-link" href="student-life.html">Student life</a><a class="nav-link" href="contact.html">Contact</a>
+        <a href="admissions.html" class="nav-cta">Apply now <span aria-hidden="true">→</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero-image relative flex min-h-[560px] items-center bg-cover bg-center sm:min-h-[650px]">
+      <div class="mx-auto w-full max-w-7xl px-5 py-20 sm:px-8 sm:py-28">
+        <div class="max-w-2xl text-white">
+          <p class="mb-5 text-xs font-bold uppercase tracking-[.24em] text-amber-200">A school for curious minds · Est. 1974</p>
+          <h1 class="max-w-xl font-display text-5xl font-medium leading-[1.08] tracking-tight sm:text-6xl lg:text-7xl">Empowering tomorrow’s leaders today.</h1>
+          <p class="mt-6 max-w-xl text-base leading-7 text-white/85 sm:text-lg sm:leading-8">A world-class learning environment fostering academic excellence, character, and innovation.</p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row"><a href="admissions.html#tour-form" class="inline-flex min-h-12 items-center justify-center rounded-sm bg-oak-gold px-6 py-3 text-sm font-semibold text-white hover:bg-amber-700">Book a campus tour <span aria-hidden="true" class="ml-3">→</span></a><a href="academics.html" class="inline-flex min-h-12 items-center justify-center rounded-sm border border-white/70 px-6 py-3 text-sm font-semibold text-white hover:bg-white hover:text-oak-navy">Explore curriculum</a></div>
+          <p class="mt-12 text-xs font-medium uppercase tracking-[.16em] text-white/75">Learning that lasts a lifetime</p>
+        </div>
+      </div>
+    </section>
+    <section aria-label="Oakridge at a glance" class="bg-oak-cream">
+      <div class="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-y divide-slate-200 px-5 sm:grid-cols-4 sm:divide-y-0 sm:px-8">
+        <div class="py-7 text-center"><p class="font-display text-3xl text-oak-navy">100%</p><p class="mt-1 text-sm text-oak-muted">University acceptance</p></div><div class="py-7 text-center"><p class="font-display text-3xl text-oak-navy">15:1</p><p class="mt-1 text-sm text-oak-muted">Student–teacher ratio</p></div><div class="py-7 text-center"><p class="font-display text-3xl text-oak-navy">40+</p><p class="mt-1 text-sm text-oak-muted">Clubs and activities</p></div><div class="py-7 text-center"><p class="font-display text-3xl text-oak-navy">50+</p><p class="mt-1 text-sm text-oak-muted">Years of excellence</p></div>
+      </div>
+    </section>
+    <section class="py-20 sm:py-28">
+      <div class="mx-auto grid max-w-7xl gap-12 px-5 sm:px-8 lg:grid-cols-[.95fr_1.05fr] lg:items-center lg:gap-20">
+        <div class="relative"><img class="image-cover h-[390px] w-full rounded-sm sm:h-[470px]" src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=85" alt="Students learning together in a bright classroom"><div class="absolute -bottom-5 right-0 max-w-[230px] bg-oak-navy px-6 py-5 text-white sm:-right-5"><p class="font-display text-2xl">Every student, known.</p><p class="mt-2 text-sm leading-6 text-white/75">The right support makes room for remarkable growth.</p></div></div>
+        <div class="lg:pl-4"><p class="text-xs font-bold uppercase tracking-[.22em] text-oak-gold">A message from our Head of School</p><h2 class="mt-4 font-display text-3xl leading-tight text-oak-navy sm:text-4xl">Education is about who you become, not only what you know.</h2><blockquote class="mt-6 border-l-2 border-oak-gold pl-5 text-lg leading-8 text-slate-600">“At Oakridge, we challenge students to think deeply, act with kindness, and find the confidence to contribute. Our strongest work happens when school and family move forward together.”</blockquote><div class="mt-7 flex items-center gap-4"><img class="h-14 w-14 rounded-full object-cover" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=160&h=160&q=80" alt="Dr. Elizabeth Vance, Head of School"><div><p class="font-semibold text-oak-navy">Dr. Elizabeth Vance</p><p class="text-sm text-oak-muted">Head of School</p></div></div><a class="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-oak-blue hover:text-oak-gold" href="about.html">Get to know Oakridge <span aria-hidden="true">→</span></a></div>
+      </div>
+    </section>
+    <section class="bg-oak-cream py-20 sm:py-24">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8"><div class="flex flex-col justify-between gap-5 sm:flex-row sm:items-end"><div><p class="text-xs font-bold uppercase tracking-[.22em] text-oak-gold">Around campus</p><h2 class="mt-3 font-display text-3xl text-oak-navy sm:text-4xl">The latest from Oakridge</h2></div><a href="contact.html#news" class="text-sm font-semibold text-oak-blue hover:text-oak-gold">All school news →</a></div>
+        <div class="mt-9 grid gap-5 md:grid-cols-3">
+          <article class="border border-slate-200 bg-white p-6 shadow-soft"><p class="text-xs font-semibold uppercase tracking-[.15em] text-oak-gold">Student achievement · May 14</p><h3 class="mt-4 font-display text-xl text-oak-navy">Oakridge robotics team advances to the national finals</h3><p class="mt-3 text-sm leading-6 text-oak-muted">Months of prototyping and teamwork paid off at this year’s regional challenge.</p><a href="student-life.html" class="mt-5 inline-flex text-sm font-semibold text-oak-blue">Read the story →</a></article>
+          <article class="border border-slate-200 bg-white p-6 shadow-soft"><p class="text-xs font-semibold uppercase tracking-[.15em] text-oak-gold">Admissions · June 8</p><h3 class="mt-4 font-display text-xl text-oak-navy">Come see what makes Oakridge feel different</h3><p class="mt-3 text-sm leading-6 text-oak-muted">Join us for our next open house, meet our teachers, and explore campus.</p><a href="admissions.html#tour-form" class="mt-5 inline-flex text-sm font-semibold text-oak-blue">Reserve your visit →</a></article>
+          <article class="border border-slate-200 bg-white p-6 shadow-soft"><p class="text-xs font-semibold uppercase tracking-[.15em] text-oak-gold">School calendar · June 20</p><h3 class="mt-4 font-display text-xl text-oak-navy">Mark your calendar for the final day of term</h3><p class="mt-3 text-sm leading-6 text-oak-muted">A few important dates and details to help families plan the weeks ahead.</p><a href="contact.html#news" class="mt-5 inline-flex text-sm font-semibold text-oak-blue">View school information →</a></article>
+        </div>
+      </div>
+    </section>
+    <section class="py-16"><div class="mx-auto flex max-w-7xl flex-col gap-6 px-5 sm:flex-row sm:items-center sm:justify-between sm:px-8"><div><p class="text-xs font-bold uppercase tracking-[.2em] text-oak-gold">Come see for yourself</p><h2 class="mt-2 font-display text-2xl text-oak-navy sm:text-3xl">The best way to know Oakridge is to visit.</h2></div><a href="admissions.html#tour-form" class="inline-flex items-center justify-center rounded-sm bg-oak-navy px-6 py-3 text-sm font-semibold text-white hover:bg-oak-blue">Plan your visit →</a></div></section>
+  </main>
+  <footer class="site-footer bg-[#142b43] text-white">
+    <div class="mx-auto grid max-w-7xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-2 lg:grid-cols-[1.25fr_.8fr_1fr_1fr]">
+      <div><a href="index.html" class="font-display text-xl" aria-label="Oakridge Academy home">Oakridge <span class="block font-sans text-[9px] font-semibold uppercase tracking-[.24em] text-white/60">International Academy</span></a><p class="mt-5 max-w-xs text-sm leading-6 text-white/65">Thoughtful learning, strong community, and the courage to make a difference.</p><div class="mt-6 flex gap-3"><a href="https://www.facebook.com/" aria-label="Oakridge on Facebook" class="social-link">f</a><a href="https://www.instagram.com/" aria-label="Oakridge on Instagram" class="social-link">ig</a><a href="https://www.youtube.com/" aria-label="Oakridge on YouTube" class="social-link">▶</a><a href="https://www.linkedin.com/" aria-label="Oakridge on LinkedIn" class="social-link">in</a></div></div>
+      <div><h2 class="text-sm font-semibold">Explore</h2><ul class="mt-4 space-y-3 text-sm text-white/65"><li><a href="about.html">Our school</a></li><li><a href="academics.html">Academics</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="student-life.html">Student life</a></li></ul></div>
+      <div><h2 class="text-sm font-semibold">Contact our team</h2><address class="mt-4 space-y-3 text-sm not-italic leading-6 text-white/65"><p>1200 Oakridge Lane<br>Fairview, CA 94000</p><p><a href="tel:+15550142730">(555) 014-2730</a><br><a href="mailto:admissions@oakridgeacademy.edu">admissions@oakridgeacademy.edu</a></p></address></div>
+      <div><h2 class="text-sm font-semibold">Office hours</h2><p class="mt-4 text-sm leading-6 text-white/65">Monday–Friday<br>8:00 am–4:00 pm</p><p class="mt-5 text-xs font-semibold uppercase tracking-[.16em] text-amber-200">Accredited & community-led</p><p class="mt-2 text-xs leading-5 text-white/50">International Schools Association · Regional Independent Schools Council</p></div>
+    </div>
+    <div class="border-t border-white/10"><div class="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-5 text-xs text-white/50 sm:flex-row sm:justify-between sm:px-8"><p>© <span data-current-year></span> Oakridge International Academy. All rights reserved.</p><div class="flex gap-5"><a href="contact.html#privacy">Privacy</a><a href="contact.html#child-safety">Child safety</a><span>Secure connection</span></div></div></div>
+  </footer>
+</body>
+</html>
